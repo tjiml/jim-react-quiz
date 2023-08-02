@@ -258,7 +258,10 @@ export default function App() {
     document.querySelector('.user-answer-hard').value === quiz_data[currentQuestion].correct_2 ||
     document.querySelector('.user-answer-hard').value === quiz_data[currentQuestion].correct_3 ||
     document.querySelector('.user-answer-hard').value === quiz_data[currentQuestion].correct_4 ||
-    document.querySelector('.user-answer-hard').value === quiz_data[currentQuestion].correct_5) {
+    document.querySelector('.user-answer-hard').value === quiz_data[currentQuestion].correct_5 ||
+    document.querySelector('.user-answer-hard').value === quiz_data[currentQuestion].correct_6 || 
+    document.querySelector('.user-answer-hard').value === quiz_data[currentQuestion].correct_7 ||
+    document.querySelector('.user-answer-hard').value === quiz_data[currentQuestion].correct_8) {
       setScore(score + 1);
     } else {
     }
