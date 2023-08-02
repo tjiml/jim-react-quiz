@@ -29,6 +29,7 @@ export default function App() {
       correct_2: "trainertips",
       correct_3: "Trainertips",
       correct_4: "Trainer tips",
+      correct_5: "Trainer Tips",
       hint: "he gives great tips"
     },
     {
