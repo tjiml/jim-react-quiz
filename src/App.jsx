@@ -18,87 +18,66 @@ export default function App() {
       correct_4: "tom le",
       correct_5: "whos tom le",
       hint: "one of jim's cousin"
+    },
+    {
+      question: "which pokemon go content creator did jim meet?",
+      correct_1: "trainer tips",
+      correct_2: "trainertips",
+      hint: "he gives great tips"
+    },
+    {
+      question: "jim's first official dance crew was with?",
+      correct_1: "shelly true dance",
+      correct_2: "shelly true dance academy",
+      correct_3: "shelly true",
+      hint: "there were girls.."
+    },
+    {
+      question: "who is jim's favorite super smash bros character?",
+      correct_1: "ness",
+      hint: "pk fire!"
+    },
+    {
+      question: "who is jim's all-time favorite dance crew?",
+      correct_1: "quest crew",
+      hint: "america's best dance crew season 3"
+    },
+    {
+      question: "what was jim's high school graduation celebration?",
+      correct_1: "backflip",
+      correct_2: "back flip",
+      correct_3: "flip",
+      hint: "he stuck the landing"
+    },
+    {
+      question: "name one of three professional bboys that jim has met.",
+      correct_1: "roxrite",
+      correct_2: "bboy roxrite",
+      correct_3: "pocket",
+      correct_4: "bboy pocket",
+      correct_5: "zeku",
+      correct_6: "bboy zeku",
+      hint: "one was met in CO, two were met in FL"
+    },
+    {
+      question: "name one of two subscriptions that jim pays for.",
+      correct_1: "vasa",
+      correct_2: "spotify",
+      hint: "gym and music"
+    },
+    {
+      question: "jim's first job was where?",
+      correct_1: "panda",
+      correct_2: "panda express",
+      hint: "all-time favorite restaurant"
+    },
+    {
+      question: "what sport did jim play in high school?",
+      correct_1: "bball",
+      correct_2: "basketball",
+      correct_3: "basket ball",
+      hint: "he quit because of suicide drills"
     }
-    // {
-    //   question: "which pokemon go content creator did jim meet?",
-    //   correct_1: "trainer tips",
-    //   correct_2: "trainertips",
-    //   hint: "he gives great tips"
-    // },
-    // {
-    //   question: "jim's first official dance crew was with?",
-    //   correct_1: "shelly true dance",
-    //   correct_2: "shelly true dance academy",
-    //   correct_3: "shelly true",
-    //   hint: "there were girls.."
-    // },
-    // {
-    //   question: "who is jim's go-to super smash bros character?",
-    //   correct_1: "ness",
-    //   hint: "pk fire!"
-    // },
-    // {
-    //   question: "who was the first dance crew to inspire jim to dance?",
-    //   correct_1: "status quo",
-    //   hint: "america's best dance crew season 1"
-    // },
-    // {
-    //   question: "who is jim's all-time favorite dance crew?",
-    //   correct_1: "quest crew",
-    //   hint: "america's best dance crew season 3"
-    // },
-    // {
-    //   question: "what was jim's high school graduation celebration?",
-    //   correct_1: "backflip",
-    //   correct_2: "back flip",
-    //   correct_3: "flip",
-    //   hint: "he stuck the landing"
-    // },
-    // {
-    //   question: "name one of three professional bboys that jim has met.",
-    //   correct_1: "roxrite",
-    //   correct_2: "bboy roxrite",
-    //   correct_3: "pocket",
-    //   correct_4: "bboy pocket",
-    //   correct_5: "zeku",
-    //   correct_6: "bboy zeku",
-    //   hint: "one was met in CO, two were met in FL"
-    // },
-    // {
-    //   question: "jim fractured his wrist performing which powermove?",
-    //   correct_1: "jack hammer",
-    //   correct_2: "jackhammer",
-    //   correct_3: "jackhammers",
-    //   correct_4: "jack hammers",
-    //   hint: "involved a beanie"
-    // },
-    // {
-    //   question: "jim started with a 'D', but passed with an 'A' in what science college course?",
-    //   correct_1: "microbiology",
-    //   correct_2: "micro-biology",
-    //   correct_3: "microbio",
-    //   hint: "it was small"
-    // },
-    // {
-    //   question: "where does jim like to find/buy his clothes from?",
-    //   correct_1: "thrift store",
-    //   correct_2: "thrift stores",
-    //   correct_3: "goodwill",
-    //   correct_4: "arc",
-    //   hint: "saves me money"
-    // },
-    // {
-    //   question: "name one of two subscriptions that jim pays for.",
-    //   correct_1: "vasa",
-    //   correct_2: "spotify",
-    //   hint: "gym and music"
-    // },
-    // {
-    //   question: "jim's first job was where?",
-    //   correct_1: "panda",
-    //   correct_2: "panda express",
-    //   hint: "all-time favorite restaurant"
-    // }
   ]
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
