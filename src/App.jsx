@@ -173,7 +173,9 @@ export default function App() {
     || document.querySelector('.user-answer').value === quiz_data[currentQuestion].correct_3
     || document.querySelector('.user-answer').value === quiz_data[currentQuestion].correct_4
     || document.querySelector('.user-answer').value === quiz_data[currentQuestion].correct_5
-    || document.querySelector('.user-answer').value === quiz_data[currentQuestion].correct_6) {
+    || document.querySelector('.user-answer').value === quiz_data[currentQuestion].correct_6
+    || document.querySelector('.user-answer').value === quiz_data[currentQuestion].correct_7
+    || document.querySelector('.user-answer').value === quiz_data[currentQuestion].correct_8) {
 
       document.querySelector('.required-answer').innerHTML = '';
       document.querySelector('.results-easy-quiz').innerHTML = randomRightText();
