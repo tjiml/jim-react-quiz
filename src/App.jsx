@@ -19,6 +19,8 @@ export default function App() {
       correct_4: "tom le",
       correct_5: "Whostomle",
       correct_6: "Tom",
+      correct_7: "Tom Le",
+      correct_8: "Tommy",
       hint: "one of jim's cousin"
     },
     {
@@ -60,6 +62,7 @@ export default function App() {
       correct_4: "Backflip",
       correct_5: "Back flip",
       correct_6: "Flip",
+      correct_7: "Back Flip",
       hint: "he stuck the landing"
     },
     {
@@ -97,6 +100,7 @@ export default function App() {
       correct_4: "Bball",
       correct_5: "Basket ball",
       correct_6: "Basketball",
+      correct_7: "Basket Ball",
       hint: "he quit because of suicide drills"
     }
   ]
