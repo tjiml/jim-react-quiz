@@ -8,6 +8,7 @@ export default function App() {
     {
       question: "what is jim's favorite pokemon?",
       correct_1: "turtwig",
+      correct_2: "Turtwig",
       hint: "generation 4 starter"
     },
     {
@@ -16,13 +17,16 @@ export default function App() {
       correct_2: "tom",
       correct_3: "tommy",
       correct_4: "tom le",
-      correct_5: "whos tom le",
+      correct_5: "Whostomle",
+      correct_6: "Tom",
       hint: "one of jim's cousin"
     },
     {
       question: "which pokemon go content creator did jim meet?",
       correct_1: "trainer tips",
       correct_2: "trainertips",
+      correct_3: "Trainertips",
+      correct_4: "Trainer tips",
       hint: "he gives great tips"
     },
     {
@@ -30,16 +34,22 @@ export default function App() {
       correct_1: "shelly true dance",
       correct_2: "shelly true dance academy",
       correct_3: "shelly true",
+      correct_4: "Shelly true",
+      correct_5: "Shelly true dance",
+      correct_6: "Shelly True",
       hint: "there were girls.."
     },
     {
       question: "who is jim's favorite super smash bros character?",
       correct_1: "ness",
+      correct_2: "Ness",
       hint: "pk fire!"
     },
     {
       question: "who is jim's all-time favorite dance crew?",
       correct_1: "quest crew",
+      correct_2: "Quest Crew",
+      correct_3: "Quest crew",
       hint: "america's best dance crew season 3"
     },
     {
@@ -47,28 +57,36 @@ export default function App() {
       correct_1: "backflip",
       correct_2: "back flip",
       correct_3: "flip",
+      correct_4: "Backflip",
+      correct_5: "Back flip",
+      correct_6: "Flip",
       hint: "he stuck the landing"
     },
     {
       question: "name one of three professional bboys that jim has met.",
       correct_1: "roxrite",
-      correct_2: "bboy roxrite",
+      correct_2: "Roxrite",
       correct_3: "pocket",
-      correct_4: "bboy pocket",
+      correct_4: "Pocket",
       correct_5: "zeku",
-      correct_6: "bboy zeku",
+      correct_6: "Zeku",
       hint: "one was met in CO, two were met in FL"
     },
     {
       question: "name one of two subscriptions that jim pays for.",
       correct_1: "vasa",
       correct_2: "spotify",
+      correct_3: "Vasa",
+      correct_4: "Spotify",
       hint: "gym and music"
     },
     {
       question: "jim's first job was where?",
       correct_1: "panda",
       correct_2: "panda express",
+      correct_3: "Panda Express",
+      correct_4: "Panda express",
+      correct_5: "Panda",
       hint: "all-time favorite restaurant"
     },
     {
@@ -76,6 +94,9 @@ export default function App() {
       correct_1: "bball",
       correct_2: "basketball",
       correct_3: "basket ball",
+      correct_4: "Bball",
+      correct_5: "Basket ball",
+      correct_6: "Basketball",
       hint: "he quit because of suicide drills"
     }
   ]
