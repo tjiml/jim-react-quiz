@@ -1,7 +1,7 @@
 {
-  "homepage": "http://tjiml.github.io/jim-react-quiz",
+  "homepage": "https://tjiml.github.io/jim-react-quiz",
   "name": "jim-react-quiz",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
