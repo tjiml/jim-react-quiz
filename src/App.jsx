@@ -301,7 +301,7 @@ export default function App() {
     } else if (score === quiz_data.length) {
       document.querySelector('.result-text-hard').innerHTML = 'you are perfection, ' + document.querySelector('.user-name').value + '!';
     } else {
-      document.querySelector('.result-text-hard').innerHTML = 'not bod not bod, ' + document.querySelector('.user-name').value + '!';
+      document.querySelector('.result-text-hard').innerHTML = 'you did alright, ' + document.querySelector('.user-name').value + '!';
     }
   }
 
